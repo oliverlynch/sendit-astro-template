@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "prebuild:fetch-theme-color": "node fetch-theme-color.cjs",
-    "bookshop": "npx @bookshop/generate --bookshop src/components"
+    "bookshop": "npx @bookshop/generate --bookshop src/components",
+    "bookshopbuild": "astro build && npx @cloudcannon/reader --output dist && npx @bookshop/generate"
   },
   "dependencies": {
     "@astrojs/react": "^2.1.3",
