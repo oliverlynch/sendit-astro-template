@@ -7,13 +7,13 @@
         "data/*"
       ],
       "@components/*": [
-        "src/components/*"
+        "src/my-subdirectory/components/*"
       ],
       "@shared/*": [
-        "src/shared/astro/*"
+        "src/my-subdirectory/shared/astro/*"
       ],
       "@layouts/*": [
-        "src/layouts/*"
+        "src/my-subdirectory/layouts/*"
       ],
     },
     "jsx": "react-jsx",
